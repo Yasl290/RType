@@ -1,0 +1,5 @@
+if(EXISTS "/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/tests/rtype_tests[1]_tests.cmake")
+  include("/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/tests/rtype_tests[1]_tests.cmake")
+else()
+  add_test(rtype_tests_NOT_BUILT rtype_tests_NOT_BUILT)
+endif()

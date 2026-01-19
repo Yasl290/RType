@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/engine/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/game/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/server/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/tests/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/ety/Desktop/Tek3/rtype/G-CPP-500-LIL-5-2-rtype-4/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

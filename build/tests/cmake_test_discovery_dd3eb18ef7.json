@@ -1,0 +1,367 @@
+{
+  "tests": 59,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RegistryTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "CreateEntity",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 12
+        },
+        {
+          "name": "CreateMultipleEntities",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 17
+        },
+        {
+          "name": "AddComponent",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 27
+        },
+        {
+          "name": "GetComponent",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 35
+        },
+        {
+          "name": "HasComponent",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 44
+        },
+        {
+          "name": "MultipleComponents",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 52
+        },
+        {
+          "name": "IterateEntitiesWithComponents",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 68
+        },
+        {
+          "name": "DestroyEntity",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 88
+        },
+        {
+          "name": "MarkForDestruction",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 99
+        },
+        {
+          "name": "ModifyComponentDuringIteration",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_registry.cpp",
+          "line": 110
+        }
+      ]
+    },
+    {
+      "name": "SparseSetTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "AddElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 10
+        },
+        {
+          "name": "ContainsElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 18
+        },
+        {
+          "name": "GetElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 28
+        },
+        {
+          "name": "ModifyElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 37
+        },
+        {
+          "name": "RemoveElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 50
+        },
+        {
+          "name": "RemoveNonExistentElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 61
+        },
+        {
+          "name": "MultipleElements",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 67
+        },
+        {
+          "name": "RemoveMiddleElement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 85
+        },
+        {
+          "name": "SparseIndices",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_sparse_set.cpp",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "name": "TransformTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 9
+        },
+        {
+          "name": "ParameterizedConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "name": "VelocityTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 27
+        },
+        {
+          "name": "ParameterizedConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "HealthTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 39
+        },
+        {
+          "name": "ParameterizedConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "name": "ControllableTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 51
+        },
+        {
+          "name": "ParameterizedConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "ProjectileTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 64
+        },
+        {
+          "name": "ChargedProjectile",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "name": "ScoreTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 80
+        },
+        {
+          "name": "AddPoints",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 86
+        },
+        {
+          "name": "IncrementKills",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 95
+        },
+        {
+          "name": "Reset",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_components.cpp",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "name": "MovementSystemTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "UpdatePosition",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_systems.cpp",
+          "line": 13
+        },
+        {
+          "name": "UpdatePositionWithDeltaTime",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_systems.cpp",
+          "line": 25
+        },
+        {
+          "name": "MultipleEntities",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_systems.cpp",
+          "line": 37
+        },
+        {
+          "name": "NoVelocityComponent",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_systems.cpp",
+          "line": 58
+        },
+        {
+          "name": "ZeroVelocity",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_systems.cpp",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "name": "ProtocolTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "PacketHeaderMagic",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 7
+        },
+        {
+          "name": "IsValidPacket",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 12
+        },
+        {
+          "name": "ConnectRequestSize",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 20
+        },
+        {
+          "name": "ConnectRequestInitialization",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 26
+        },
+        {
+          "name": "ConnectResponseStatus",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 35
+        },
+        {
+          "name": "PlayerInputFlags",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 41
+        },
+        {
+          "name": "EntityUpdateInitialization",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 52
+        },
+        {
+          "name": "LobbyStatusInitialization",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 75
+        },
+        {
+          "name": "ScoreUpdate",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 90
+        },
+        {
+          "name": "PacketSerialization",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_protocol.cpp",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "name": "GameModuleTest",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "InitializeModule",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 13
+        },
+        {
+          "name": "SpawnPlayer",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 17
+        },
+        {
+          "name": "SpawnMultiplePlayers",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 23
+        },
+        {
+          "name": "RemovePlayer",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 36
+        },
+        {
+          "name": "ProcessPlayerInput",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 41
+        },
+        {
+          "name": "UpdateModule",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 48
+        },
+        {
+          "name": "GetWorldSnapshot",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 54
+        },
+        {
+          "name": "PlayerScore",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 61
+        },
+        {
+          "name": "PlayerMovement",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 68
+        },
+        {
+          "name": "MaxPlayersLimit",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 85
+        },
+        {
+          "name": "ShootProjectile",
+          "file": "\/Users\/ety\/Desktop\/Tek3\/rtype\/G-CPP-500-LIL-5-2-rtype-4\/tests\/test_game_module.cpp",
+          "line": 101
+        }
+      ]
+    }
+  ]
+}
